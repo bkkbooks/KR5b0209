@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0209/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0209/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 玉籙濟幽判斛儀
+  date: '2015-08-29 00:12:35.607082'
+  source:
+    repository: kanripo
+    path: KR5b0209
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0209_000-ZTDZ.yaml, hash: 'sha256:5724d1c0c6723582b14065a2a0d4f5cc30de63277b596fcab0691874a3fc8783'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0209_000-ZTDZ.markers.yaml, hash: 'sha256:6cedb93770d4b009f73ff5392fa60b1f4cbfa9ac312ab994b6b7e57624d675e4'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0209_SJB_000-090178b
+    span:
+    - body
+    - 0
+    - 2440
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:d235fa6a4977908d23b5ed1bd9062da237e13919163538e75eaf9fec6a84ff51
